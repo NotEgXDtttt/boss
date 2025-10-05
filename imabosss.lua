@@ -160,7 +160,7 @@ local function queueScript()
 wait(0.5)
 print("Restarting script from queue...")
 pcall(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/fwybangels-design/boss/main/imabosss.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NotEgXDtttt/boss/refs/heads/main/imabosss.lua"))()
 end)
 ]])
     else
@@ -637,6 +637,7 @@ local function initialize()
 end
 
 initialize()
+
 
 
 
